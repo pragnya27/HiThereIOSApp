@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116A0B981CE264F200331B8D /* depositphotos_5146068-Messages-between-sands-and-shells.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116A0B971CE264F200331B8D /* depositphotos_5146068-Messages-between-sands-and-shells.jpg */; };
+		116A0B9A1CE265CF00331B8D /* messages--background_19-116437.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116A0B991CE265CF00331B8D /* messages--background_19-116437.jpg */; };
+		116A0B9C1CE2664900331B8D /* image_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 116A0B9B1CE2664900331B8D /* image_7.png */; };
+		116A0B9E1CE267C400331B8D /* loading_animation-iphone-game-design-ramotion.gif in Resources */ = {isa = PBXBuildFile; fileRef = 116A0B9D1CE267C400331B8D /* loading_animation-iphone-game-design-ramotion.gif */; };
+		116A0BA01CE26AD800331B8D /* 3c960ad19703b1f28e6fc272a4194537.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116A0B9F1CE26AD800331B8D /* 3c960ad19703b1f28e6fc272a4194537.jpg */; };
+		116A0BA21CE26C6A00331B8D /* hi_there_welcome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116A0BA11CE26C6A00331B8D /* hi_there_welcome.jpg */; };
+		116A0BA41CE26F7200331B8D /* hi-there-digital-5-638.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 116A0BA31CE26F7200331B8D /* hi-there-digital-5-638.jpg */; };
+		11C201491CDF8C130048591D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C201481CDF8C130048591D /* AppDelegate.swift */; };
+		11C2014E1CDF8C130048591D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C2014C1CDF8C130048591D /* Main.storyboard */; };
+		11C201501CDF8C130048591D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C2014F1CDF8C130048591D /* Assets.xcassets */; };
+		11C201531CDF8C130048591D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C201511CDF8C130048591D /* LaunchScreen.storyboard */; };
+		11C2015B1CDF932B0048591D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C2015A1CDF932B0048591D /* Accounts.framework */; };
+		11C2015D1CDF93340048591D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C2015C1CDF93340048591D /* Social.framework */; };
+		11C2015F1CDF93940048591D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2015E1CDF93940048591D /* LoginViewController.swift */; };
+		11C201611CDF93A10048591D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C201601CDF93A10048591D /* CreateAccountViewController.swift */; };
+		11C201671CDF9E3B0048591D /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C201661CDF9E3B0048591D /* UsersTableViewController.swift */; };
+		11C201691CDF9FD90048591D /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C201681CDF9FD90048591D /* UserObject.swift */; };
+		11C2016B1CDF9FE70048591D /* FirebaseConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2016A1CDF9FE70048591D /* FirebaseConnector.swift */; };
+		11C2016F1CDFA16F0048591D /* ChatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2016E1CDFA16F0048591D /* ChatDetailViewController.swift */; };
+		11C201731CDFB0D40048591D /* TwitterAuthHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C201721CDFB0D40048591D /* TwitterAuthHelper.m */; };
+		11C201751CDFC4FD0048591D /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C201741CDFC4FD0048591D /* twitter.png */; };
+		11C2017E1CDFE21C0048591D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11C2017D1CDFE21C0048591D /* GoogleService-Info.plist */; };
+		11ED040B1CE0496700971AE4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11ED040A1CE0496600971AE4 /* AVFoundation.framework */; };
+		FD843A73BC26672E4C7E9204 /* Pods_Messaging_HiThere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E8B45057866BE603851D10 /* Pods_Messaging_HiThere.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		116A0B971CE264F200331B8D /* depositphotos_5146068-Messages-between-sands-and-shells.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "depositphotos_5146068-Messages-between-sands-and-shells.jpg"; sourceTree = "<group>"; };
+		116A0B991CE265CF00331B8D /* messages--background_19-116437.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "messages--background_19-116437.jpg"; sourceTree = "<group>"; };
+		116A0B9B1CE2664900331B8D /* image_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_7.png; sourceTree = "<group>"; };
+		116A0B9D1CE267C400331B8D /* loading_animation-iphone-game-design-ramotion.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "loading_animation-iphone-game-design-ramotion.gif"; sourceTree = "<group>"; };
+		116A0B9F1CE26AD800331B8D /* 3c960ad19703b1f28e6fc272a4194537.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3c960ad19703b1f28e6fc272a4194537.jpg; sourceTree = "<group>"; };
+		116A0BA11CE26C6A00331B8D /* hi_there_welcome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hi_there_welcome.jpg; sourceTree = "<group>"; };
+		116A0BA31CE26F7200331B8D /* hi-there-digital-5-638.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hi-there-digital-5-638.jpg"; sourceTree = "<group>"; };
+		11C201451CDF8C130048591D /* Messaging_HiThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messaging_HiThere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C201481CDF8C130048591D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11C2014D1CDF8C130048591D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11C2014F1CDF8C130048591D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11C201521CDF8C130048591D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11C201541CDF8C130048591D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C2015A1CDF932B0048591D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		11C2015C1CDF93340048591D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		11C2015E1CDF93940048591D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		11C201601CDF93A10048591D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		11C201661CDF9E3B0048591D /* UsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		11C201681CDF9FD90048591D /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		11C2016A1CDF9FE70048591D /* FirebaseConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseConnector.swift; sourceTree = "<group>"; };
+		11C2016E1CDFA16F0048591D /* ChatDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatDetailViewController.swift; sourceTree = "<group>"; };
+		11C201701CDFB0D30048591D /* Messaging_HiThere-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Messaging_HiThere-Bridging-Header.h"; sourceTree = "<group>"; };
+		11C201711CDFB0D40048591D /* TwitterAuthHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAuthHelper.h; sourceTree = "<group>"; };
+		11C201721CDFB0D40048591D /* TwitterAuthHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAuthHelper.m; sourceTree = "<group>"; };
+		11C201741CDFC4FD0048591D /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		11C2017D1CDFE21C0048591D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		11ED040A1CE0496600971AE4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1932C69EFF87DB15764E5A08 /* Pods-Messaging_HiThere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messaging_HiThere.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Messaging_HiThere/Pods-Messaging_HiThere.debug.xcconfig"; sourceTree = "<group>"; };
+		82E8B45057866BE603851D10 /* Pods_Messaging_HiThere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messaging_HiThere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C6ED0D006A8A7CF17507F5 /* Pods-Messaging_HiThere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messaging_HiThere.release.xcconfig"; path = "Pods/Target Support Files/Pods-Messaging_HiThere/Pods-Messaging_HiThere.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11C201421CDF8C130048591D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11ED040B1CE0496700971AE4 /* AVFoundation.framework in Frameworks */,
+				11C2015D1CDF93340048591D /* Social.framework in Frameworks */,
+				11C2015B1CDF932B0048591D /* Accounts.framework in Frameworks */,
+				FD843A73BC26672E4C7E9204 /* Pods_Messaging_HiThere.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01151DA4ED33CC58E333C674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11ED040A1CE0496600971AE4 /* AVFoundation.framework */,
+				11C2015C1CDF93340048591D /* Social.framework */,
+				11C2015A1CDF932B0048591D /* Accounts.framework */,
+				82E8B45057866BE603851D10 /* Pods_Messaging_HiThere.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		11C2013C1CDF8C130048591D = {
+			isa = PBXGroup;
+			children = (
+				11C201471CDF8C130048591D /* Messaging_HiThere */,
+				11C201461CDF8C130048591D /* Products */,
+				E3C460E04B8155539B84C552 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		11C201461CDF8C130048591D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11C201451CDF8C130048591D /* Messaging_HiThere.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11C201471CDF8C130048591D /* Messaging_HiThere */ = {
+			isa = PBXGroup;
+			children = (
+				01151DA4ED33CC58E333C674 /* Frameworks */,
+				11C2017B1CDFDDED0048591D /* Services and Wrappers */,
+				11C2017A1CDFDDDE0048591D /* Models */,
+				11C201791CDFDDD00048591D /* Controllers */,
+				11C201781CDFDDBD0048591D /* Resources */,
+				11C201481CDF8C130048591D /* AppDelegate.swift */,
+				11C2014C1CDF8C130048591D /* Main.storyboard */,
+				11C2014F1CDF8C130048591D /* Assets.xcassets */,
+				11C201511CDF8C130048591D /* LaunchScreen.storyboard */,
+				11C201541CDF8C130048591D /* Info.plist */,
+				11C2017D1CDFE21C0048591D /* GoogleService-Info.plist */,
+			);
+			path = Messaging_HiThere;
+			sourceTree = "<group>";
+		};
+		11C201781CDFDDBD0048591D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				116A0BA31CE26F7200331B8D /* hi-there-digital-5-638.jpg */,
+				116A0BA11CE26C6A00331B8D /* hi_there_welcome.jpg */,
+				116A0B9F1CE26AD800331B8D /* 3c960ad19703b1f28e6fc272a4194537.jpg */,
+				116A0B9D1CE267C400331B8D /* loading_animation-iphone-game-design-ramotion.gif */,
+				116A0B9B1CE2664900331B8D /* image_7.png */,
+				116A0B991CE265CF00331B8D /* messages--background_19-116437.jpg */,
+				116A0B971CE264F200331B8D /* depositphotos_5146068-Messages-between-sands-and-shells.jpg */,
+				11C201741CDFC4FD0048591D /* twitter.png */,
+				11C201711CDFB0D40048591D /* TwitterAuthHelper.h */,
+				11C201721CDFB0D40048591D /* TwitterAuthHelper.m */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		11C201791CDFDDD00048591D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11C201601CDF93A10048591D /* CreateAccountViewController.swift */,
+				11C2015E1CDF93940048591D /* LoginViewController.swift */,
+				11C201661CDF9E3B0048591D /* UsersTableViewController.swift */,
+				11C2016E1CDFA16F0048591D /* ChatDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		11C2017A1CDFDDDE0048591D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11C201701CDFB0D30048591D /* Messaging_HiThere-Bridging-Header.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		11C2017B1CDFDDED0048591D /* Services and Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				11C201681CDF9FD90048591D /* UserObject.swift */,
+				11C2016A1CDF9FE70048591D /* FirebaseConnector.swift */,
+			);
+			name = "Services and Wrappers";
+			sourceTree = "<group>";
+		};
+		E3C460E04B8155539B84C552 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1932C69EFF87DB15764E5A08 /* Pods-Messaging_HiThere.debug.xcconfig */,
+				D5C6ED0D006A8A7CF17507F5 /* Pods-Messaging_HiThere.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11C201441CDF8C130048591D /* Messaging_HiThere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C201571CDF8C130048591D /* Build configuration list for PBXNativeTarget "Messaging_HiThere" */;
+			buildPhases = (
+				BE512AAC97B002DFAF021E16 /* Check Pods Manifest.lock */,
+				11C201411CDF8C130048591D /* Sources */,
+				11C201421CDF8C130048591D /* Frameworks */,
+				11C201431CDF8C130048591D /* Resources */,
+				EEEBCBCF2B80C4B24A1E2283 /* Embed Pods Frameworks */,
+				8985B3105745BA7543C07E72 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Messaging_HiThere;
+			productName = Messaging_HiThere;
+			productReference = 11C201451CDF8C130048591D /* Messaging_HiThere.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11C2013D1CDF8C130048591D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iOSFinalProject;
+				TargetAttributes = {
+					11C201441CDF8C130048591D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = SNF5RYCDEK;
+					};
+				};
+			};
+			buildConfigurationList = 11C201401CDF8C130048591D /* Build configuration list for PBXProject "Messaging_HiThere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11C2013C1CDF8C130048591D;
+			productRefGroup = 11C201461CDF8C130048591D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11C201441CDF8C130048591D /* Messaging_HiThere */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11C201431CDF8C130048591D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C201531CDF8C130048591D /* LaunchScreen.storyboard in Resources */,
+				116A0BA01CE26AD800331B8D /* 3c960ad19703b1f28e6fc272a4194537.jpg in Resources */,
+				116A0B9A1CE265CF00331B8D /* messages--background_19-116437.jpg in Resources */,
+				11C201751CDFC4FD0048591D /* twitter.png in Resources */,
+				116A0B981CE264F200331B8D /* depositphotos_5146068-Messages-between-sands-and-shells.jpg in Resources */,
+				116A0B9E1CE267C400331B8D /* loading_animation-iphone-game-design-ramotion.gif in Resources */,
+				116A0BA41CE26F7200331B8D /* hi-there-digital-5-638.jpg in Resources */,
+				116A0BA21CE26C6A00331B8D /* hi_there_welcome.jpg in Resources */,
+				11C2017E1CDFE21C0048591D /* GoogleService-Info.plist in Resources */,
+				11C201501CDF8C130048591D /* Assets.xcassets in Resources */,
+				11C2014E1CDF8C130048591D /* Main.storyboard in Resources */,
+				116A0B9C1CE2664900331B8D /* image_7.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8985B3105745BA7543C07E72 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Messaging_HiThere/Pods-Messaging_HiThere-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE512AAC97B002DFAF021E16 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEEBCBCF2B80C4B24A1E2283 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Messaging_HiThere/Pods-Messaging_HiThere-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11C201411CDF8C130048591D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C201611CDF93A10048591D /* CreateAccountViewController.swift in Sources */,
+				11C201691CDF9FD90048591D /* UserObject.swift in Sources */,
+				11C2015F1CDF93940048591D /* LoginViewController.swift in Sources */,
+				11C201491CDF8C130048591D /* AppDelegate.swift in Sources */,
+				11C2016B1CDF9FE70048591D /* FirebaseConnector.swift in Sources */,
+				11C2016F1CDFA16F0048591D /* ChatDetailViewController.swift in Sources */,
+				11C201671CDF9E3B0048591D /* UsersTableViewController.swift in Sources */,
+				11C201731CDFB0D40048591D /* TwitterAuthHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11C2014C1CDF8C130048591D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11C2014D1CDF8C130048591D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11C201511CDF8C130048591D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11C201521CDF8C130048591D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11C201551CDF8C130048591D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11C201561CDF8C130048591D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11C201581CDF8C130048591D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1932C69EFF87DB15764E5A08 /* Pods-Messaging_HiThere.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Messaging_HiThere/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ram.HiThere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Messaging_HiThere/Messaging_HiThere-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		11C201591CDF8C130048591D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C6ED0D006A8A7CF17507F5 /* Pods-Messaging_HiThere.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Messaging_HiThere/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ram.HiThere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Messaging_HiThere/Messaging_HiThere-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11C201401CDF8C130048591D /* Build configuration list for PBXProject "Messaging_HiThere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C201551CDF8C130048591D /* Debug */,
+				11C201561CDF8C130048591D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11C201571CDF8C130048591D /* Build configuration list for PBXNativeTarget "Messaging_HiThere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C201581CDF8C130048591D /* Debug */,
+				11C201591CDF8C130048591D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11C2013D1CDF8C130048591D /* Project object */;
+}

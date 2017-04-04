@@ -1,0 +1,6 @@
+framework module Pods_Messaging_HiThere {
+  umbrella header "Pods-Messaging_HiThere-umbrella.h"
+
+  export *
+  module * { export * }
+}
